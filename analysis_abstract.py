@@ -16,6 +16,7 @@ class AbstractAnalyis(abc.ABC):
     @abc.abstractmethod
     def calculate_atom_number(self):
         pass
+
     @abc.abstractmethod #defines the values
     def analyze(self, img):
         self.analysis_params=[]
